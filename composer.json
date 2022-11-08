@@ -1,0 +1,19 @@
+{
+    "name": "msmerdov/deformator",
+    "description": "Swaps the letters in a string.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Msmerdov\\Deformator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "m.smerdov",
+            "email": "zdraff@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
