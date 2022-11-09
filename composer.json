@@ -12,8 +12,5 @@
             "name": "m.smerdov",
             "email": "zdraff@gmail.com"
         }
-    ],
-    "require": {
-        "php": ">=7.4"
-    }
+    ]
 }

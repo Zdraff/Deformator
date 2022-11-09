@@ -5,13 +5,15 @@ declare(strict_types=1);
 namespace Msmerdov\Deformator;
 
 class Deform {
-    public string $str;
+    public $str;
 
-    public function __construct(string $str) {
+    public function __construct($str) {
         $this->str = $str;
     }
 
-    public function getDeformatedString() {
-        return implode('', array_rand(str_split($this->str)));
+    public function getDeformedString() {
+        $array = preg_split('//u', $this->str);
+        shuffle($array);
+        return implode('', $array);
     }
 }
